@@ -1,0 +1,44 @@
+body {
+    font-family: 'Henny Penny', cursive;
+    background-color: #18105c;
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#head {    
+    text-align: center;
+}
+
+#head h1 {
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+#head h2 {
+    font-size: 2rem;
+}
+
+.test {
+    border-bottom: 10px #000;
+}
+
+#houses {
+    display: flex;
+    justify-content: center;
+}
+
+#houses ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+}
+
+#houses img {
+    border-radius: 10px;
+    scale: 50%;
+    transition: transform .5s;
+}
+
+#houses img:hover {
+    transform: scale(1.5);
+}
