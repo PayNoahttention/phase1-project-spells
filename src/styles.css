@@ -1,26 +1,61 @@
 body {
-    font-family: 'Henny Penny', cursive;
     background-color: #18105c;
     color: yellow;
+    
+}
+
+.container {
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+  }
+
+.houses {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.card {
+    border: 3px solid hotpink;
+}
+
+
+/* #houses {
+    display: flex;
+}
+
+#houses img {
+    border-radius: 10px;
+    scale: 50%;
+    transition: transform .5s;
+}
+
+#houses img:hover {
+    transform: scale(1.1);
+} */
+
+
+/* #titleArea {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #head {    
     text-align: center;
+
 }
 
-#head h1 {
+h1 {
+
     font-size: 4rem;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#head h2 {
+#houses h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
-.test {
-    border-bottom: 10px #000;
-}
 
 #houses {
     display: flex;
@@ -28,7 +63,6 @@ body {
 }
 
 #houses ul{
-    position: absolute;
     list-style: none;
     display: flex;
 }
@@ -40,5 +74,7 @@ body {
 }
 
 #houses img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
+
+ */
